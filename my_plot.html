@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>my plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdn.holoviz.org/panel/1.3.8/dist/bundled/perspective/@finos/perspective-viewer@1.9.3/dist/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.holoviz.org/panel/1.3.8/dist/bundled/perspective/@finos/perspective-viewer@1.9.3/dist/css/themes.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.holoviz.org/panel/1.3.8/dist/bundled/perspective/@finos/perspective-viewer@1.9.3/dist/css/variables.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.holoviz.org/panel/1.3.8/dist/bundled/perspective/@finos/perspective-viewer@1.9.3/dist/css/material.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.holoviz.org/panel/1.3.8/dist/bundled/perspective/@finos/perspective-viewer@1.9.3/dist/css/material-dark.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.holoviz.org/panel/1.3.8/dist/bundled/perspective/@finos/perspective-viewer@1.9.3/dist/css/monokai.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.holoviz.org/panel/1.3.8/dist/bundled/perspective/@finos/perspective-viewer@1.9.3/dist/css/solarized.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.holoviz.org/panel/1.3.8/dist/bundled/perspective/@finos/perspective-viewer@1.9.3/dist/css/solarized-dark.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.holoviz.org/panel/1.3.8/dist/bundled/perspective/@finos/perspective-viewer@1.9.3/dist/css/vaporwave.css" type="text/css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@finos/perspective@1.9.3/dist/umd/perspective.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer@1.9.3/dist/umd/perspective-viewer.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer-datagrid@1.9.3/dist/umd/perspective-viewer-datagrid.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer-d3fc@1.9.3/dist/umd/perspective-viewer-d3fc.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.3.4.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="e5671a99-d391-45e8-965a-dca3a2f6589c" data-root-id="5b8b346c-a9fe-47e0-b54e-a7e871e2d4f4" style="display: contents;"></div>
+  
+    <script type="application/json" id="83108875-4e98-42b8-8128-99a0dc6a10e4">
+      {"b2f7c0b7-1d7f-414f-93f4-bd49ccc1fece":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"5b8b346c-a9fe-47e0-b54e-a7e871e2d4f4","attributes":{"x_range":{"type":"object","name":"DataRange1d","id":"68c1ff0f-2dbe-479a-8e5e-be9af8b63f47"},"y_range":{"type":"object","name":"DataRange1d","id":"834f8cb2-f310-4cf2-931d-d2421260fd07"},"x_scale":{"type":"object","name":"LinearScale","id":"2f66b346-01b8-4c6c-97c6-0dec2548eda2"},"y_scale":{"type":"object","name":"LinearScale","id":"a01ac7de-b751-4e14-88fb-5cac3ce051d9"},"title":{"type":"object","name":"Title","id":"0ef2e80c-99ff-4c26-bce0-d9cb494d08ad"},"renderers":[{"type":"object","name":"GlyphRenderer","id":"1a8ba826-d2e5-4e01-ad77-be83831213d0","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"d9aecf42-5046-4af3-944a-de00c91111e0","attributes":{"selected":{"type":"object","name":"Selection","id":"2fc50a75-d716-42e9-8777-669e55e31553","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"2d711db7-a9e7-4db7-bb44-c2140a509ad2"},"data":{"type":"map","entries":[["x",[1,2,3]],["y",[4,5,6]]]}}},"view":{"type":"object","name":"CDSView","id":"7cc0d507-a708-4d3d-9996-5f425bfcb075","attributes":{"filter":{"type":"object","name":"AllIndices","id":"9b6cc977-534b-473d-b94c-1cc52bc734bd"}}},"glyph":{"type":"object","name":"Line","id":"25a04f59-e5a5-4699-8dec-56544a8a002a","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4"}},"nonselection_glyph":{"type":"object","name":"Line","id":"02bb67b0-0441-4920-b0d3-24998f855827","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"9de47cfe-30e3-4cf2-b682-cd35150e04f4","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"1407ded3-28d4-4c3a-80d8-c016e104f339","attributes":{"tools":[{"type":"object","name":"PanTool","id":"74567903-4da0-4012-80bc-1997323ac81c"},{"type":"object","name":"WheelZoomTool","id":"cf4e6923-ddcb-4eb5-b14b-6941fb909373","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"a51805cc-cd50-4ddd-9923-fc4b729d2029","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"b4b62436-b20f-4033-b04e-49ea920227eb","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"a9e2de93-303e-4494-b704-c9053aa38518"},{"type":"object","name":"ResetTool","id":"5510900f-32d7-4cb7-b178-418e86264fe4"},{"type":"object","name":"HelpTool","id":"eafbb135-24a9-4e17-8205-33f54dc02409"}]}},"left":[{"type":"object","name":"LinearAxis","id":"4e9777a8-1656-425c-b312-cd69cad9a801","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"4b87034d-6811-424d-8483-d099f5e0d4d9","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"9e43efce-ce72-45b6-baba-e6003ce9f2bc"},"major_label_policy":{"type":"object","name":"AllLabels","id":"c66a6567-5452-4561-a1dd-afe3424e3f51"}}}],"below":[{"type":"object","name":"LinearAxis","id":"8b10dca8-f1fe-480b-ac41-90ef67ec1e0d","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"46db4bc3-98b2-4c87-a86c-225617292564","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"184712de-ab21-499b-892d-f2b56d944cdb"},"major_label_policy":{"type":"object","name":"AllLabels","id":"e516240a-dd32-46fd-bd90-6070067f68a7"}}}],"center":[{"type":"object","name":"Grid","id":"a776c221-4d80-4999-b60e-b2ecf21e56a8","attributes":{"axis":{"id":"8b10dca8-f1fe-480b-ac41-90ef67ec1e0d"}}},{"type":"object","name":"Grid","id":"00f2ca87-48c3-4d7d-9108-5387ef82b2bf","attributes":{"dimension":1,"axis":{"id":"4e9777a8-1656-425c-b312-cd69cad9a801"}}}]}}],"defs":[{"type":"model","name":"ReactiveHTML1"},{"type":"model","name":"FlexBox1","properties":[{"name":"align_content","kind":"Any","default":"flex-start"},{"name":"align_items","kind":"Any","default":"flex-start"},{"name":"flex_direction","kind":"Any","default":"row"},{"name":"flex_wrap","kind":"Any","default":"wrap"},{"name":"justify_content","kind":"Any","default":"flex-start"}]},{"type":"model","name":"FloatPanel1","properties":[{"name":"config","kind":"Any","default":{"type":"map"}},{"name":"contained","kind":"Any","default":true},{"name":"position","kind":"Any","default":"right-top"},{"name":"offsetx","kind":"Any","default":null},{"name":"offsety","kind":"Any","default":null},{"name":"theme","kind":"Any","default":"primary"},{"name":"status","kind":"Any","default":"normalized"}]},{"type":"model","name":"GridStack1","properties":[{"name":"mode","kind":"Any","default":"warn"},{"name":"ncols","kind":"Any","default":null},{"name":"nrows","kind":"Any","default":null},{"name":"allow_resize","kind":"Any","default":true},{"name":"allow_drag","kind":"Any","default":true},{"name":"state","kind":"Any","default":[]}]},{"type":"model","name":"drag1","properties":[{"name":"slider_width","kind":"Any","default":5},{"name":"slider_color","kind":"Any","default":"black"},{"name":"value","kind":"Any","default":50}]},{"type":"model","name":"click1","properties":[{"name":"terminal_output","kind":"Any","default":""},{"name":"debug_name","kind":"Any","default":""},{"name":"clears","kind":"Any","default":0}]},{"type":"model","name":"copy_to_clipboard1","properties":[{"name":"fill","kind":"Any","default":"none"},{"name":"value","kind":"Any","default":null}]},{"type":"model","name":"FastWrapper1","properties":[{"name":"object","kind":"Any","default":null},{"name":"style","kind":"Any","default":null}]},{"type":"model","name":"NotificationAreaBase1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0}]},{"type":"model","name":"NotificationArea1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"notifications","kind":"Any","default":[]},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0},{"name":"types","kind":"Any","default":[{"type":"map","entries":[["type","warning"],["background","#ffc107"],["icon",{"type":"map","entries":[["className","fas fa-exclamation-triangle"],["tagName","i"],["color","white"]]}]]},{"type":"map","entries":[["type","info"],["background","#007bff"],["icon",{"type":"map","entries":[["className","fas fa-info-circle"],["tagName","i"],["color","white"]]}]]}]}]},{"type":"model","name":"Notification","properties":[{"name":"background","kind":"Any","default":null},{"name":"duration","kind":"Any","default":3000},{"name":"icon","kind":"Any","default":null},{"name":"message","kind":"Any","default":""},{"name":"notification_type","kind":"Any","default":null},{"name":"_destroyed","kind":"Any","default":false}]},{"type":"model","name":"TemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"BootstrapTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"MaterialTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('83108875-4e98-42b8-8128-99a0dc6a10e4').textContent;
+              const render_items = [{"docid":"b2f7c0b7-1d7f-414f-93f4-bd49ccc1fece","roots":{"5b8b346c-a9fe-47e0-b54e-a7e871e2d4f4":"e5671a99-d391-45e8-965a-dca3a2f6589c"},"root_ids":["5b8b346c-a9fe-47e0-b54e-a7e871e2d4f4"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
